@@ -33,7 +33,7 @@ int main()
 
 	g << maxim << '\n';
 	++n;
-	for (unsigned int i = 1; i <= m; ++i) a[n][i] = suma_col(a, n, i);
+	for (unsigned int i = 1; i <= m; ++i) a[n][i] = suma_col(a, n - 1, i);
 
 	for (unsigned int i = 1; i <= n; ++i)
 	{
